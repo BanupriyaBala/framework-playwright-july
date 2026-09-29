@@ -2,7 +2,7 @@ import {test,expect} from "../../fixture/fixture.js"
 
 import user from '../../testdata/user.json'
 
-
+//Adding comments to test the git commit and push functionality
 test.describe("Login Test",{tags: ['smoke','login']},()=>{
     
     test('login to application', async ({ page,loginPage,dashboardPage}) => 
